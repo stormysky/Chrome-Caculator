@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+	"name": "calculator",
+	"version": "1.0",
+
+	"description": "A browser calculator",
+	"browser_action": {
+		"default_icon": "calculator.png",
+		"default_title": "calculator",
+		"default_popup": "popup.html"
+	},
+	"permissions":[
+		"tabs","activeTab"
+	]
+}
